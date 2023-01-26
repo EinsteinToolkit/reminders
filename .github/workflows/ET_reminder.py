@@ -21,7 +21,7 @@ from daylight saving time. The phone call will be at $BERLIN_TIME Central EU
 time.
 """
 
-mesg = f"""
+mesg = f"""\
 Subject: Einstein Toolkit Meeting Reminder
 
 Hello,
