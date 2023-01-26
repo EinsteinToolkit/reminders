@@ -13,6 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     name: Update repository
     steps:
-      - name: Running ET_reminder.sh
+      - name: install python
+        run: |
+          apt-get update
+          apt-get install -y python3
+      - name: Running ET_reminder.py
         shell: bash
-        run: sh ./.github/workflows/ET_reminder.sh
+        run: python3 ./.github/workflows/ET_reminder.py
