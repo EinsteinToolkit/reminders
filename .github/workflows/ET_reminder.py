@@ -19,7 +19,7 @@ if BERLIN_TIME != "16:00":
 Please note that the US / EU has already / not yet transitioned to /
 from daylight saving time. The phone call will be at $BERLIN_TIME Central EU
 time.
-""""
+"""
 
 mesg = f"""
 Subject: Einstein Toolkit Meeting Reminder
