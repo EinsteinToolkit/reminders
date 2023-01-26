@@ -5,8 +5,8 @@ on:
   workflow_dispatch:
 
   # run once a day
-  schedule:
-    - cron: '15 17 * * 2'
+#  schedule:
+#    - cron: '15 17 * * 2'
 
 jobs:
   update-repo:
